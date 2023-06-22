@@ -1,0 +1,42 @@
+div.animations{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    
+   
+}
+div.animations:hover{
+    animation-name: örnekcalısma;
+    animation-direction: alternate;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    position: relative;
+    bottom:100px;
+}
+
+@keyframes örnekcalısma {
+  0% { background-color: aquamarine;left: 0px;top: 0px;}
+  25% {background-color: brown;left: 20px;top: 20px;}
+  50% {background-color: blueviolet;left: 40px;top: 40px;}
+  75% {background-color: red;left: 60px;top: 60px;}
+  100% {background-color: black;left: 80px;top: 80px;}
+
+}
+
+.nav-item{
+  text-decoration: none;
+  color: black;
+
+}
+.nav-item:hover{
+  background-color: aqua;
+  border-radius: 3px;
+}
+div.nav{
+  background-color: burlywood;
+  width: 700px;
+  height: 50px;
+  border-radius:5px;
+}
+
+
